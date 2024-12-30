@@ -1,0 +1,7 @@
+Step 1:
+Create a DAG (T) which is a collection of nodes (N) each with a collection of edges (E)
+ - T will be a list of N and E Pairs
+ - T[0] will be the root node
+ - N will be a id, position
+ - E will be a list of N id's 
+ - For visualisation a line renderer will be drawn for T[i] where it will have the points (N.pos, E[j]) for each j in E
